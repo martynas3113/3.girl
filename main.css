@@ -24,6 +24,7 @@ header {
         float: right;
         margin-top: 10px;
         font-size: 18px;
+
     }
 
     a {
@@ -32,6 +33,7 @@ header {
         line-height: 20px;
         padding: 10px;
         margin-left: 10px;
+        color: #C5C5C5;
         
     }
 
