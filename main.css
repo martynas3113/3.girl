@@ -1,7 +1,47 @@
-div {
+body > div {
     display: inline-block;
     width: 1000px;
     margin-left: calc((100% - 1000px) /2 );
     background-color: violet;
 }
 
+header {
+    display: inline-block;
+    width: 100%;
+
+}
+
+    header > img{
+        display: inline-block;
+        float: left;
+    }
+
+    nav {
+        display: inline-block;
+        float: right;
+    }
+
+    a {
+        display: inline-block;
+    }
+main  {
+    display: inline-block;
+    width: 100%;
+}
+
+    main > div {
+        display: inline-block;
+        float: left;
+    }
+        h1 {
+            display: inline-block;
+        }
+        
+        p{
+            display: inline-block;
+        }
+
+        main > img {
+            display: inline-block;
+            float: right;
+        }
